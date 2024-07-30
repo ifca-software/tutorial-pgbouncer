@@ -9,7 +9,7 @@ Dockerised PgBouncer example
 
 The official documentation of PgBouncer can be accessed <a href="https://www.pgbouncer.org/install.html">here</a>. 
 
-Since we’ve dockerized our PostgreSQL database, we prefer pulling the <a href="https://github.com/bitnami/containers/blob/main/bitnami/pgbouncer/README.md">Bitnami PgBouncer Docker Image</a> as it comes pre-configured with defaults.
+Since we’ve dockerised our PostgreSQL database, we prefer pulling the <a href="https://github.com/bitnami/containers/blob/main/bitnami/pgbouncer/README.md">Bitnami PgBouncer Docker Image</a> as it comes pre-configured with defaults.
 
 ## Setup
 
