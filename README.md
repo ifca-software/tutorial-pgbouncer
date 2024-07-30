@@ -1,5 +1,5 @@
 # tutorial-pgbouncer
-Dockerised pgBouncer example
+Dockerised PgBouncer example
 
 ## What is PgBouncer?
 
