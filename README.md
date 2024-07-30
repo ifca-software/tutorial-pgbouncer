@@ -16,7 +16,7 @@ Since we’ve dockerised our PostgreSQL database, we prefer pulling the <a href=
 ### Step 1: Configure PgBouncer in `docker-compose.yml`
 
 1. Include a pgbouncer service in your `docker-compose.yml` in accordance with the sample provided in this repo.
-2. Create an `.env` file in the same directory to store your env variables securely. Populate it with the following configuration:
+2. Create a `.env` file in the same directory to store your env variables securely. Populate it with the following configuration:
    
    ```
    POSTGRES_USER=db_user
@@ -29,7 +29,7 @@ Since we’ve dockerised our PostgreSQL database, we prefer pulling the <a href=
 ### Step 2: Start the Container
 
 1. SSH into the staging environment.
-2. Navigate to the directory containing your `docker-compose.yml` . Ensure that an `.env` file is set up in your environment.
+2. Navigate to the directory containing your `docker-compose.yml` . Ensure that a `.env` file is set up in your environment.
 3. Run `docker-compose up -d`.
 4. Verify that the images are running correctly `docker ps`.
 5. Have your application’s backend to connect to PgBouncer on port 6432 instead of the PostgreSQL server.
