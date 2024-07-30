@@ -17,11 +17,13 @@ Since we’ve dockerised our PostgreSQL database, we prefer pulling the <a href=
 
 1. Include a pgbouncer service in your `docker-compose.yml` in accordance with the sample provided in this repo
 2. Create a .env file in the same directory to store your env variables securely. Populate it with the following configuration:
-   `POSTGRES_USER=db_user`
-   `POSTGRES_PASSWORD=db_password`
-   `POSTGRES_DB=db_name`
-   `POSTGRES_HOST=postgres`
-   `POSTGRES_PORT=5432`
+   ```
+   POSTGRES_USER=db_user
+   POSTGRES_PASSWORD=db_password
+   POSTGRES_DB=db_name
+   POSTGRES_HOST=postgres
+   POSTGRES_PORT=5432
+   ```
 
 ### Step 2: Start the Container
 
