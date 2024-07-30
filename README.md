@@ -43,7 +43,3 @@ Since we’ve dockerised our PostgreSQL database, we prefer pulling the <a href=
    ```
    docker logs <pgbouncer_image_name>
    ```
-
-## Demo
-
-*insert yt vid*
