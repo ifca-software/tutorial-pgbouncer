@@ -31,3 +31,7 @@ Since we’ve dockerised our PostgreSQL database, we prefer pulling the <a href=
 4. Verify that the images are running correctly `docker ps`
 5. Have your application’s backend to connect to PgBouncer on port 6432 instead of the PostgreSQL server
 6. Verify that the connection is successful `docker logs <pgbouncer_image_name>`
+
+## Demo
+
+*insert yt vid*
